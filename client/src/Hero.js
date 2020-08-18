@@ -11,12 +11,12 @@ const Hero = () => {
 
       <div className={styles['col-2']}>
         <div className={styles['item-1']}>
-          <h1>Tacos</h1>
-          <h4>1.99</h4>
+          <h1>1.99</h1>
+          <h4>Tacos</h4>
         </div>
         <div className={styles['item-2']}>
-          <h1>Kambucha</h1>
-          <h4>3.99</h4>
+          <h1>3.99</h1>
+          <h4>Kambucha</h4>
         </div>
       </div>
     </div>

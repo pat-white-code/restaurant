@@ -44,3 +44,13 @@
   width: 100%;
   padding: 20px;
 }
+
+@media (max-width: 685px) {
+  .hero-container {
+    flex-direction: column;
+  }
+
+  .col-2 {
+    flex-direction: row;
+  }
+}

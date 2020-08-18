@@ -1,0 +1,23 @@
+.menu-item {
+  padding: 1px 0;
+  width: 15%;
+  text-align: center;
+  background-color: yellow;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 500px) {
+  .menu-item {
+    border: 1px blue solid;
+    width: 70%;
+  }
+  .menu-container {
+    align-items: center;
+    flex-direction: column;
+    border: 1px red solid;
+  }
+}

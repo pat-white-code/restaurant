@@ -1,6 +1,7 @@
 import React from 'react';
 import MenuItems from './MenuItems';
 import './App.css';
+import Hero from './Hero';
 
 const styles = {
   home: {
@@ -14,6 +15,7 @@ function App() {
   return (
     <div style={styles.home}>
       <MenuItems />
+      <Hero />
     </div>
   );
 }

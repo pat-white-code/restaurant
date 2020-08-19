@@ -6,7 +6,6 @@ import Hero from './Hero';
 const styles = {
   home: {
     backgroundColor: 'black',
-    height: 500,
     padding: 20
   }
 }
